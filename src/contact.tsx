@@ -74,7 +74,7 @@ const Contact = () => {
       <section className="relative h-[250px] md:h-[300px]">
         <div className="flex flex-col gap-2 items-center justify-center h-full w-full">
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-blue-950">
-            Contact Us
+            Ready to get started?
           </h1>
           <p>Find the best way to get help and connect with us</p>
         </div>
@@ -86,8 +86,9 @@ const Contact = () => {
             <h4 className="text-base font-medium">GET IN TOUCH</h4>
             <h2 className="text-[35px] font-medium">Schedule Meeting</h2>
             <p className="text-[16px] text-black leading-[28.8px] font-normal w-full text-center">
-              We live to provide innovative solutions to problems like yours.
-              Let's talk.
+              Please fill out the form below. Our first step is to get to know
+              you, your business, the challenge(s) you’re facing, and ensure
+              we’re a good fit for each other.
             </p>
           </div>
 
@@ -184,7 +185,7 @@ const Contact = () => {
                 Address
               </h4>
               <p className="text-blue-500 leading-normal">
-                15 Odiyan Street, Lekki, Phase 1
+                1 Adedeji Adekola Street, Lekki, Phase 1.
               </p>
             </div>
           </div>
