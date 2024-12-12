@@ -1,29 +1,29 @@
-import lean from "./assets/the lean stup.webp";
-import influence from "./assets/influence.png";
-import hooked from "./assets/Hooked-updated-cover-US.webp";
+import webdev from "./assets/webdev.jpg";
+import onlinestore from "./assets/onlinestore.jpg";
+import mobiledev from "./assets/mobiledev.jpg";
 import phoenix from "./assets/the phoenix project.jpeg";
 import digital from "./assets/Digital-Marketing-for-Dummies-book-cover.jpg";
 
 export const genres = [
   {
     id: 1,
-    name: "Business/Entrepreneurship",
+    name: "Website Development",
   },
   {
     id: 2,
-    name: "Psychology/Sales",
+    name: "Online Store Design",
   },
   {
     id: 3,
-    name: "Business/Marketing",
+    name: "Mobile App Development",
   },
   {
     id: 4,
-    name: "Business/Technology",
+    name: "Hosting Service",
   },
   {
     id: 5,
-    name: "Marketing/Technology",
+    name: "Domains Hosting / Reservation",
   },
 ];
 
@@ -40,58 +40,54 @@ export interface Book {
 export const books = [
   {
     id: 1,
-    title:
-      "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
-    author: "Eric Ries",
+    title: "Website Development",
+    author: "",
     genre: "Business/Entrepreneurship",
-    img: lean,
-    price: "$65.99",
+    img: webdev,
+    price: "$1200.00",
     summary:
-      "This book presents a methodology for developing businesses and products based on the concept of validated learning, experimentation, and iterative product releases.",
+      "Need a professional website to showcase your business or ideas? Our expert team specializes in crafting stunning, user-friendly websites tailored to your specific needs. We offer a comprehensive range of services, including:",
   },
   {
     id: 2,
-    title: "Influence: The Psychology of Persuasion",
-    author: "Robert B. Cialdini",
+    title: "Online Store Design",
+    author: "",
     genre: "Psychology/Sales",
-    img: influence,
+    img: onlinestore,
 
-    price: "$72.50",
+    price: "$1500.00",
     summary:
-      "This book explores the psychology behind why people say 'yes' and how to apply these understandings in marketing, sales, and everyday life.",
+      "Looking to create a captivating online store that drives sales and enhances your brand image? Our expert design team specializes in crafting visually stunning and highly functional online stores that leave a lasting impression.",
   },
   {
     id: 3,
-    title: "Hooked: How to Build Habit-Forming Products",
-    author: "Nir Eyal",
+    title: "Mobile App Development",
+    author: "",
     genre: "Business/Marketing",
-    img: hooked,
+    img: mobiledev,
 
-    price: "$80.99",
+    price: "$2700.00",
     summary:
-      "This book provides insights into the psychology of habit-forming products and offers practical advice for creating products that users can't put down.",
+      "Need a mobile app to reach your target audience and streamline your business processes? Our skilled developers create innovative and user-friendly mobile apps for both iOS and Android platforms.",
   },
   {
     id: 4,
-    title:
-      "The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win",
-    author: "Gene Kim, Kevin Behr, George Spafford",
+    title: "Domain and Web Management",
+    author: "",
     genre: "Business/Technology",
     img: phoenix,
 
-    price: "$97.25",
-    summary:
-      "This novel tells the story of an IT manager's journey to save his company's failing IT infrastructure by applying principles of DevOps.",
+    price: "$900.00",
+    summary: "",
   },
   {
     id: 5,
-    title: "Digital Marketing for Dummies",
-    author: "Ryan Deiss, Russ Henneberry",
+    title: "Business Development",
+    author: "",
     genre: "Marketing/Technology",
     img: digital,
 
-    price: "$84.99",
-    summary:
-      "This book offers comprehensive guidance on digital marketing strategies, including SEO, content marketing, social media, email marketing, and more.",
+    price: "$1800.00",
+    summary: "",
   },
 ];
