@@ -86,7 +86,7 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-blue-950">
             Order Details
           </h1>
-          <p>Find the best way to get help and connect with Splashtop</p>
+          <p>Here are the details of your order. Please kindly provide the billing details</p>
         </div>
       </section>
 
@@ -167,17 +167,13 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
               <h4 className="text-[#707070] uppercase font-medium text-[13px]">
                 Professional consultation service charge
               </h4>
-              <h4 className="text-[#161616] font-medium text-[16px]">
-                $20.00
-              </h4>
+              <h4 className="text-[#161616] font-medium text-[16px]">$20.00</h4>
             </div>
             <div className="flex items-center justify-between py-[15px] w-full border-b">
               <h4 className="text-[#707070] uppercase font-medium text-[13px]">
                 Processing Fee
               </h4>
-              <h4 className="text-[#161616] font-medium text-[16px]">
-                $5.00
-              </h4>
+              <h4 className="text-[#161616] font-medium text-[16px]">$5.00</h4>
             </div>
             <div className="flex items-center justify-between py-[15px] w-full border-b">
               <h4 className="text-[#707070] font-medium text-[13px]">TOTAL</h4>
@@ -326,7 +322,7 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
               based on service demand. It may be lesser or higher.
             </p>
 
-            <h4 className="font-bold text-[#a20401] mt-[20px] leading-[28px]">
+            {/* <h4 className="font-bold text-[#a20401] mt-[20px] leading-[28px]">
               PAYMENT METHODS
             </h4>
 
@@ -339,7 +335,7 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
               <p className="text-[#707070] font-normal text-[13px]">
                 Make payment using your debit, credit card & bank account
               </p>
-            </div>
+            </div> */}
 
             <p className="text-[#161616] font-normal text-[16px] text-left">
               Your personal data will be used to process your order, support
