@@ -17,12 +17,12 @@ const Navbar = () => {
       </Link>
 
       <div className="md:flex items-center justify-center gap-14 hidden">
-        <Link
+        {/* <Link
           to="/products"
           className="text-[16px] leading-[24px] font-medium text-[#333333] cursor-pointer"
         >
           Products
-        </Link>
+        </Link> */}
         <Link
           to="/about-us"
           className="text-[16px] leading-[24px] font-medium text-[#333333] cursor-pointer"
@@ -34,7 +34,7 @@ const Navbar = () => {
           to="/contact-us"
           className="text-[16px] leading-[24px] font-medium text-[#333333] cursor-pointer"
         >
-          Contact
+          Get In Touch
         </Link>
       </div>
 
@@ -71,12 +71,12 @@ const Navbar = () => {
           navbarVisible ? "top-[66px]" : "-top-[300px]"
         } shadow-2xl shadow-blue-900/20 flex flex-col items-center justify-between w-full left-0 absolute bg-white px-10 md:hidden`}
       >
-        <Link
+        {/* <Link
           to="/products"
           className="text-[16px] leading-[24px] font-normal text-[#333333] cursor-pointer text-left w-full border-b py-3 hover:text-green-500 transition-colors"
         >
           Products
-        </Link>
+        </Link> */}
         <Link
           to="/about-us"
           className="text-[16px] leading-[24px] font-normal text-[#333333] cursor-pointer text-left w-full border-b py-3 hover:text-green-500 transition-colors"
@@ -88,7 +88,7 @@ const Navbar = () => {
           to="/contact-us"
           className="text-[16px] leading-[24px] font-normal text-[#333333] cursor-pointer text-left w-full py-3 hover:text-green-500 transition-colors"
         >
-          Contact
+          Get In Touch
         </Link>
       </div>
     </nav>
