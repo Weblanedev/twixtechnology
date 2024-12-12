@@ -20,19 +20,20 @@ const About = () => {
           </h1>
 
           <p className="text-center md:text-left mt-[-30px] w-[450px] md:w-[330px]">
-            Our story, our values and how our customers drive everything we do.
+            Creativity That Solves Big Problems. Let us serve you to grow your
+            businesses.
           </p>
 
-          <Link
+          {/* <Link
             to="/products"
             className="text-base font-medium text-white bg-blue-500 rounded-full px-7 md:px-12 py-4 md:py-5 hover:bg-blue-600 flex items-center justify-center gap-3"
           >
             Explore Products
-          </Link>
+          </Link> */}
         </div>
 
         <img
-          src="https://tis-tis-io-asset-prd.s3.eu-central-1.amazonaws.com/Meet_the_Team_0cce546d6a.png"
+          src="https://images.unsplash.com/photo-1560277090-46659724a489?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
           className="w-full h-[300px] md:h-[300px] md:w-[500px] object-cover rounded-xl shadow-lg"
         />
@@ -45,27 +46,31 @@ const About = () => {
           </h1>
 
           <p className="text-center md:text-left mt-[-10px]  w-full md:w-[550px] leading-relaxed">
-            We're the leader in Secure Remote Access and Support. We deliver an
-            in-person experience users need with security IT can trust. What is
-            an in-person experience? Unlike clunky remote access solutions, our
-            products are as fast, simple and secure as being right in front of
-            your on-site work computer, yet you can be anywhere, on any device.
-            Our solutions provide high performance with 4K quality at 60fps;
-            advanced security features and compliance; one application for
-            access and support across operating systems, including Windows and
-            Mac; and global support with direct access to an expert.
+            We are a digital solutions company dedicated to helping businesses
+            thrive in the digital age. With a team of experienced designers,
+            developers, and digital strategists, we provide a wide range of
+            services, including website development, online store design, mobile
+            app development, and digital marketing. Our goal is to create
+            innovative and effective digital solutions that drive growth and
+            success for our clients.
+            <br />
+            Is your brand working for you? Is your website a tool to help build
+            your business and brand? Does it tell your story in a creative way?
+            Does it present a great first impression? At Lucidity, we use
+            strategy-led design throughout the entire process to ensure your
+            brand tells your story in a meaningful way and guides site visitors
+            to actions you have planned for them.
           </p>
-
         </div>
 
         <img
-          src="https://tis-tis-io-asset-prd.s3.eu-central-1.amazonaws.com/team_339c3ad3fa.jfif"
+          src="https://images.unsplash.com/photo-1696431621200-9068cdb0a1bd?q=80&w=2826&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
           className="w-full h-[300px] md:h-[500px] md:w-[600px] object-cover rounded-xl shadow-lg"
         />
       </section>
 
-      <section className="flex w-full flex-col items-center justify-center md:justify-between gap-16 bg-blue-500/30 py-14 md:py-20">
+      {/* <section className="flex w-full flex-col items-center justify-center md:justify-between gap-16 bg-blue-500/30 py-14 md:py-20">
         <h2 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-blue-950">
           What we value
         </h2>
@@ -115,9 +120,9 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="flex flex-col-reverse md:flex-row mx-10 md:mx-[130px] items-center justify-center md:justify-between gap-5 bg-white py-14 md:py-20">
+      {/* <section className="flex flex-col-reverse md:flex-row mx-10 md:mx-[130px] items-center justify-center md:justify-between gap-5 bg-white py-14 md:py-20">
         <div className=" text-black flex flex-col gap-9 md:gap-12 items-center justify-center md:items-start">
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left w-full md:w-[530px] leading-snug md:leading-[62px] text-center">
             Why Twix
@@ -128,7 +133,7 @@ const About = () => {
             to our clients. We craft customized solutions as per the needs of
             your business. Our interactive web and ecommerce development
             solutions have helped our clients climb the ladder of success in an
-            agile way. 
+            agile way.
           </p>
 
           <p className="text-center md:text-left mt-[-25px]  w-full md:w-[550px] leading-relaxed">
@@ -136,7 +141,7 @@ const About = () => {
             tremendously. With us, you get a perfect blend of experience and
             creativity. We help you to get complete guidance to select the type
             of service suitable for your business. The web and ecommerce
-            development is done by our expert developers in their fields. 
+            development is done by our expert developers in their fields.
           </p>
           <Link
             to="/contact-us"
@@ -151,7 +156,7 @@ const About = () => {
           alt=""
           className="w-full h-[300px] md:h-[500px] md:w-[600px] object-cover rounded-xl shadow-lg"
         />
-      </section>
+      </section> */}
     </div>
   );
 };
